@@ -2,15 +2,17 @@
   "name": "auth",
   "version": "1.0.0",
   "description": "JWT ",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "author": "",
+  "author": "NB",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
     "nodemon": "^2.0.2"
   }
 }
